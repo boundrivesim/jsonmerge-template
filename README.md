@@ -8,7 +8,7 @@ Below is the C++ development environment we use:
 * A Debian-based Linux distro (Ubuntu)
 * `C++17` compiler (g++)
 * `CMake` for build automation
-* `gtest` for unit testing
+* `catch2` for unit testing
 * `git` for the version control
 
 In this assignment, we want you to use Boost::JSON library to parse JSON documents. Find more information [here](https://github.com/boostorg/json) about the library.
