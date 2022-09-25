@@ -52,3 +52,7 @@ RUN groupadd work -g 1000 \
    && printf "bouncmpe ALL= NOPASSWD: ALL\\n" >> /etc/sudoers
 
 USER bouncmpe
+
+ENV PATH "/home/bouncmpe/.local/bin:${PATH}"
+
+RUN python -m pip install gcovr
